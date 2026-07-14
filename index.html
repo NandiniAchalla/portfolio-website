@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saavitha Mali Nandini Achalla | Portfolio</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --text-dark: #334155;
+            --text-light: #64748b;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--dark);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+
+        .header-content h2 {
+            font-size: 1.25rem;
+            color: #93c5fd;
+            font-weight: 400;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .contact-links a:hover {
+            color: white;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        section {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: var(--dark);
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-category h4 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            background: #eff6ff;
+            color: var(--primary);
+            padding: 0.3rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .timeline-item {
+            margin-bottom: 2rem;
+            padding-left: 1rem;
+            border-left: 3px solid var(--border);
+        }
+
+        .timeline-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--dark);
+        }
+
+        .timeline-date {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .timeline-org {
+            color: var(--primary);
+            font-weight: 500;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding-left: 0.5rem;
+        }
+
+        li {
+            color: var(--text-dark);
+            margin-bottom: 0.4rem;
+            font-size: 0.95rem;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .project-card {
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 6px;
+            background: #fafafa;
+        }
+
+        .project-card h4 {
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+            font-size: 1.15rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Saavitha Mali Nandini Achalla</h1>
+            <h2>B.Tech Student in Computer Science & Engineering (AI-ML)</h2>
+            <div class="contact-links">
+                <a href="mailto:achallanandini2004@gmail.com">achallanandini2004@gmail.com</a>
+                <a href="tel:+919390138641">+91 93901 38641</a>
+                <a href="https://github.com/NandiniAchalla" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/nandini-achalla" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h3>Career Objective</h3>
+            <p>Hi, I'm Saavitha Mali Nandini Achalla, an Assistant System Engineer Trainee at Tata Consultancy Services. I enjoy building secure and intelligent solutions using Cyber Security, Artificial Intelligence, and modern software technologies. I'm always eager to learn, grow, and take on new challenges.</p>
+        </section>
+
+        <section id="education">
+            <h3>Education</h3>
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <span class="timeline-title">B.Tech, Computer Science & Engineering (AI-ML)</span>
+                    <span class="timeline-date">2022 - 2026</span>
+                </div>
+                <div class="timeline-org">Gayatri Vidya Parishad College of Engineering for Women</div>
+                <p><strong>CGPA:</strong> 8.55/10</p>
+            </div>
+        </section>
+
+        <section id="skills">
+    <h3>Skills</h3>
+
+    <div class="skills-grid">
+
+        <div class="skill-category">
+            <h4>Programming Languages</h4>
+            <div class="skill-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Java</span>
+                <span class="tag">C++</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h4>Cyber Security</h4>
+            <div class="skill-tags">
+                <span class="tag">Cyber Security</span>
+                <span class="tag">Identity & Access Management (IAM)</span>
+                <span class="tag">Splunk</span>
+                <span class="tag">Cloud Security</span>
+                <span class="tag">Security Operations (SOC)</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h4>Web Technologies</h4>
+            <div class="skill-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">React.js</span>
+                <span class="tag">Spring Boot</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h4>AI / ML & Cloud</h4>
+            <div class="skill-tags">
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">Streamlit</span>
+                <span class="tag">AWS</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <h4>Databases</h4>
+            <div class="skill-tags">
+                <span class="tag">MySQL</span>
+                <span class="tag">Oracle SQL</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <section id="experience">
+            <h3>Work Experience</h3>
+            
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <span class="timeline-title">Java Full Stack Virtual Intern</span>
+                    <span class="timeline-date">May 2025 - Jul 2025</span>
+                </div>
+                <div class="timeline-org">ExcelR (Remote)</div>
+                <ul>
+                    <li>Completed structured training program covering Java application development and React.js fundamentals.</li>
+                    <li>Developed a Task Management System using Java in the backend and React in the frontend.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <span class="timeline-title">AI/ML Virtual Intern</span>
+                    <span class="timeline-date">Jul 2024 - Sep 2024</span>
+                </div>
+                <div class="timeline-org">EduSkills (Google) (Remote)</div>
+                <ul>
+                    <li>Gained hands-on experience in building AI/ML models for real-world applications.</li>
+                    <li>Developed an Uber Fare Prediction model using Linear Regression and Random Forest; achieved R2 score of 0.93.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <span class="timeline-title">Cloud Computing (AWS) Intern</span>
+                    <span class="timeline-date">May 2024 - Jun 2024</span>
+                </div>
+                <div class="timeline-org">HMI Engineering Services (Visakhapatnam)</div>
+                <ul>
+                    <li>Designed and implemented scalable cloud solutions using AWS.</li>
+                    <li>Applied load balancing techniques to ensure high availability and managed access controls.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h3>Projects</h3>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h4>Phishing Website Detection (Federated Learning & LLM)</h4>
+                    <p>Built a machine learning system to detect phishing websites using Federated Learning. Used LLMs to provide explanations for website classifications while keeping user data private.</p>
+                </div>
+                <div class="project-card">
+                    <h4>Task Management Web Application</h4>
+                    <p>Developed a scalable web app enabling task creation and monitoring. Built backend APIs using Spring Boot (JPA/Hibernate), integrated React.js via Axios, and managed data with MySQL.</p>
+                </div>
+                <div class="project-card">
+                    <h4>Job Recommendation System</h4>
+                    <p>Built an ML-based job recommendation engine using Python, scikit-learn, and NLP. Implemented resume parsing, TF-IDF vectorization, and a Nearest Neighbors similarity model.</p>
+                </div>
+                <div class="project-card">
+                    <h4>Uber Ride Predictions AI Model</h4>
+                    <p>Built a machine learning model using Python and scikit-learn for accurate fare predictions via Linear Regression and Random Forest algorithms.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Saavitha Mali Nandini Achalla. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
